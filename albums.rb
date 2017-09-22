@@ -1,4 +1,4 @@
-discography = {
+DISCOGRAPHY = {
   artist:[
     {
       name:'Bob Dylan',
