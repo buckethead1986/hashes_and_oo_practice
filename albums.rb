@@ -80,27 +80,27 @@ DISCOGRAPHY = {
     },
     {
       name: "Pigs on the Wing 1",
-      album_id: 1,
+      album_id: 2,
       id: 12
     },
     {
       name: "Dogs",
-      album_id: 1,
+      album_id: 2,
       id: 13
     },
     {
       name: "Pigs (Three Different Ones)",
-      album_id: 1,
+      album_id: 2,
       id: 14
     },
     {
       name: "Sheep",
-      album_id: 1,
+      album_id: 2,
       id: 15
     },
     {
       name: "Pigs on the Wing 2",
-      album_id: 1,
+      album_id: 2,
       id: 16
     }
   ]
@@ -126,7 +126,7 @@ bob_dylan.albums
 pink_floyd.albums.first.songs
 bob_dylan.albums.first.songs
 
-# All instance variables should have reader method for reach instance attribute
+# All instance variables should have a reader method for each instance attribute
 pink_floyd.albums.first.songs.last.name
 pink_floyd.albums.first.songs.last.name
 
