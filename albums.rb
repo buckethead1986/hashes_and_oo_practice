@@ -108,8 +108,8 @@ DISCOGRAPHY = {
 
 # The Artist.new method should use the parameter to lookup the discography hash and instantiate an Artist instance
 # with an instance variable for the name and id
-pink_floyd = Artist.new('Pink Floyd')
-bob_dylan = Artist.new('Pink Floyd')
+pink_floyd = Artist.load_by_name('Pink Floyd')
+bob_dylan = Artist.load_by_name('Bob Dylan')
 
 # The load discography method should lookup the discography hash and instantiate an instance of Album per each artist album.
 # The album should have an instance variable for name, year, id and artist id
